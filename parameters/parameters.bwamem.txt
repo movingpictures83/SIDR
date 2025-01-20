@@ -1,0 +1,3 @@
+forward	RNA/forward.fastq
+reverse	RNA/reverse.fastq
+database	data/genome.fasta

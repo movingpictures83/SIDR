@@ -1,0 +1,4 @@
+Plugin BLASTN inputfile parameters/parameters.blastn.txt outputfile testData_blast.txt
+Plugin BLASTTop inputfile testData_blast.txt outputfile TopHitBLAST.txt
+Plugin BLASTFreq inputfile testData_blast.txt outputfile MostFrequentBLAST.txt
+Plugin BLASTJoin inputfile parameters/parameters.blastjoin.txt outputfile testData_sidrblast.txt

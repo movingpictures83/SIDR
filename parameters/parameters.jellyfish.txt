@@ -1,0 +1,4 @@
+fastqdir	fastqs/
+contigs	../contig_names.txt
+merlength	15
+hashsize	10

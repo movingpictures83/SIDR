@@ -1,0 +1,3 @@
+alignmentdir	alignments/
+sortedalign	alignment_sorted.bam
+contigs	../contig_names.txt

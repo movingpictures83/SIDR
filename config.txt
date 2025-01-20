@@ -1,0 +1,14 @@
+Prefix pipelines/SIDR/
+Plugin MiniMap2 inputfile parameters/parameters.minimap2.txt outputfile ONT/alignment.sam
+Plugin BWA inputfile data/genome.fasta outputfile data/genome.fasta
+Plugin BWAMEM inputfile parameters/parameters.bwamem.txt outputfile RNA/alignment.sam
+Kitty ONT
+Pipeline pipelines/SIDR/config.preprocess.txt
+Kitty RNA
+Pipeline pipelines/SIDR/config.preprocess.txt
+Pipeline pipelines/SIDR/config.blast.txt
+Kitty ONT
+Pipeline pipelines/SIDR/config.postprocess.txt
+Kitty RNA
+Pipeline pipelines/SIDR/config.postprocess.txt
+Plugin GCContig inputfile parameters/parameters.gccontig.txt outputfile ONT/stats/contig_GC.txt

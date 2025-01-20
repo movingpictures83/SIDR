@@ -1,0 +1,5 @@
+Plugin GCStats inputfile ../parameters/parameters.gcstats.txt outputfile stats/read_GC.txt
+Plugin Jellyfish inputfile ../parameters/parameters.jellyfish.txt outputfile kmers/
+Plugin BAMDepth inputfile ../parameters/parameters.fastqcontig.txt outputfile stats/Avg_depth.txt
+Plugin BAMCoverage inputfile alignment_sorted.bam outputfile stats/
+Plugin PlusMinus inputfile ../parameters/parameters.fastqcontig.txt outputfile stats/

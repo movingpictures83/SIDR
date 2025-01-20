@@ -1,0 +1,7 @@
+#Plugin SAM2BAM inputfile alignment.sam outputfile alignment.bam
+#Plugin BAMSort inputfile alignment.bam outputfile alignment_sorted.bam
+#Plugin SAMTools inputfile alignment_sorted.bam outputfile alignment_sorted.bai
+#Plugin BAM2BED inputfile alignment_sorted.bam outputfile output.bed
+#Plugin BEDContig inputfile ../parameters/parameters.bedcontig.txt outputfile alignments
+#Plugin BAMContig inputfile ../parameters/parameters.bamcontig.txt outputfile alignments
+#Plugin FASTQContig inputfile ../parameters/parameters.fastqcontig.txt outputfile fastqs

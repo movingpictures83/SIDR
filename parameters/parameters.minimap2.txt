@@ -1,0 +1,2 @@
+reads	ONT/reads.fastq
+database	data/genome.fasta
