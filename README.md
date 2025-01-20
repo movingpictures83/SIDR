@@ -1,6 +1,10 @@
 # SIDR
 ### A genome decontamination software
 
-The SIDR.sh file ties all the smaller scripts together. The smaller scripts contain parts of the program meant to calculate statistics for each contig.
+PluMA implementation
 
-Currently working on kmer statistics and sliding blast window.
+Initial files
+data/genome.fasta: Database
+ONT/reads.fastq: ONT reads
+RNA/forward.fastq: RNA, forward reads
+RNA/reverse.fastq: RNA, reverse reads
