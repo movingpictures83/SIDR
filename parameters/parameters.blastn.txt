@@ -1,4 +1,5 @@
-query	testData.fasta
+query	../testData.fasta
 db	/tmp/tcickovs/nt/nt
 cullinglimit	5
 evalue	1e-25
+parallel	5
