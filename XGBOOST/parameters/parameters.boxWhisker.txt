@@ -1,2 +1,2 @@
 genus	Caenorhabditis
-stats	biasedOutput.tsv
+stats	output.biasedOutput.tsv

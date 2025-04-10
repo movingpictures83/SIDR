@@ -1,2 +1,2 @@
 model	model-1.json
-stats	stats.csv
+stats	output.stats.tsv

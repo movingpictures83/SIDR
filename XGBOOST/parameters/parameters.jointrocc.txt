@@ -1,5 +1,5 @@
-trainstat	stat1_train.csv
-trainorigin	origin_train.csv
-teststat	stat1_test.csv
-testorigin	origin_test.csv
+trainstat	output.stat1.train.tsv
+trainorigin	output.origin.train.tsv
+teststat	output.stat1.test.tsv
+testorigin	output.origin.test.tsv
 model	model-1.json
