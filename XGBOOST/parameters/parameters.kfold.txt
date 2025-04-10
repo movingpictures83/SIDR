@@ -1,0 +1,5 @@
+stat1	stat1_train.csv
+origin	origin_train.csv
+nestimators	1000
+nsplit	5
+randomstate	7
