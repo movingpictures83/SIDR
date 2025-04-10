@@ -1,5 +1,5 @@
 Prefix pipelines/SIDR/XGBOOST
-Plugin BiasedOutput inputfile parameters/parameters.biasedOutput.txt outputfile .
+Plugin BiasedOutput inputfile parameters/parameters.biasedOutput.txt outputfile output
 Plugin BoxWhisker inputfile parameters/parameters.boxWhisker.txt outputfile TrainDataBalancePlot.png
 Plugin KFold inputfile parameters/parameters.kfold.txt outputfile model-1.json
 Plugin KeepRemove inputfile parameters/parameters.keepremove.txt outputfile output
